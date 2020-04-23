@@ -1,0 +1,27 @@
+{
+  "name": "cordova-plugin-gtm",
+  "version": "0.1.0",
+  "author": "Florent Landuré",
+  "description": "A plugin to install GTM on iOS and Android",
+  "keywords": [
+    "cordova",
+    "gtm",
+    "tag manager"
+  ],
+  "cordova": {
+    "id": "cordova-plugin-gtm",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/florentlandure/cordova-plugin-gtm.git"
+  },
+  "homepage": "https://github.com/florentlandure/cordova-plugin-gtm#readme",
+  "bugs": {
+    "url": "https://github.com/florentlandure/cordova-plugin-gtm/issues"
+  },
+  "license": "MIT"
+}
