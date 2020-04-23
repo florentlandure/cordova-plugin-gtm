@@ -1,0 +1,12 @@
+dependencies {
+  implementation 'com.google.android.gms:play-services-tagmanager:11.0.4'
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven {
+            url 'https://maven.google.com'
+        }
+    }
+}
