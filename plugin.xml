@@ -15,6 +15,13 @@
   </engines>
 
   <platform name="ios">
-    <framework src="GoogleTagManager" type="podspec" spec="~> 6.0" />
+    <podspec>
+      <config>
+        <source url="https://cdn.cocoapods.org/"/>
+      </config>
+      <pods use-frameworks="true">
+        <pod name="GoogleTagManager" spec="~> 6.0" />
+      </pods>
+    </podspec>
   </platform>
 </plugin>
