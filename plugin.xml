@@ -1,31 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-gtm" version="0.1.0">
-  <name>GTM</name>
-  <description>A plugin to install GTM on iOS and Android</description>
-  <keywords>cordova, gtm, tag manager</keywords>
-  <author>Florent Landuré</author>
-  <license>MIT</license>
-  <repo>https://github.com/florentlandure/cordova-plugin-gtm</repo>
-  <issue>https://github.com/florentlandure/cordova-plugin-gtm/issues</issue>
+    <name>GTM</name>
+    <description>A plugin to install GTM on iOS and Android</description>
+    <keywords>cordova, gtm, tag manager</keywords>
+    <author>Florent Landuré</author>
+    <license>MIT</license>
+    <repo>https://github.com/florentlandure/cordova-plugin-gtm</repo>
+    <issue>https://github.com/florentlandure/cordova-plugin-gtm/issues</issue>
 
-  <engines>
-    <engine name="cordova" version=">=9.0.0" />
-    <engine name="cordova-android" version=">=8.0.0" />
-    <engine name="cordova-ios" version=">=5.0.0" />
-  </engines>
+    <engines>
+        <engine name="cordova" version=">=9.0.0" />
+        <engine name="cordova-android" version=">=8.0.0" />
+        <engine name="cordova-ios" version=">=5.0.0" />
+    </engines>
 
-  <platform name="android">
-    <framework src="src/android/GTM.gradle" custom="true" type="gradleReference" />
-  </platform>
+    <platform name="android">
+        <framework src="src/android/GTM.gradle" custom="true" type="gradleReference" />
+    </platform>
 
-  <platform name="ios">
-    <podspec>
-      <config>
-        <source url="https://cdn.cocoapods.org/"/>
-      </config>
-      <pods use-frameworks="true">
-        <pod name="GoogleTagManager" spec="~> 7.0" />
-      </pods>
-    </podspec>
-  </platform>
+    <platform name="ios">
+        <podspec>
+            <config>
+                <source url="https://cdn.cocoapods.org/" />
+            </config>
+            <pods use-frameworks="true">
+                <pod name="GoogleTagManager" spec="~> 7.1" />
+            </pods>
+        </podspec>
+    </platform>
 </plugin>
